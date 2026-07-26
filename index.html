@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Lev Kalabenkov | DevOps</title>
+  <title>Lev Kalabenkov | SRE / DevOps Engineer</title>
   <meta name="description" content="Lev Kalabenkov — SRE / DevOps Engineer specializing in Kubernetes, observability, CI/CD, Linux, infrastructure automation, and production reliability.">
   <meta name="author" content="Lev Kalabenkov">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -220,22 +220,21 @@
           <p><b>SRE / DevOps Engineer</b></p>
           <p>Kubernetes · Observability · CI/CD · Linux · Automation</p>
           <p>Voronezh, Russia</p>
-
-          <!-- Replace this email -->
-          <p><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+          <p><a href="mailto:mr.levkalabenkov@gmail.com">mr.levkalabenkov@gmail.com</a></p>
 
           <p class="social-links">
-            <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener" aria-label="GitHub">
+            <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
               <i class="fa-brands fa-github fa-lg"></i>
             </a>
 
-            <!-- Replace YOUR_LINKEDIN with your real LinkedIn URL -->
-            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
               <i class="fa-brands fa-linkedin fa-lg"></i>
             </a>
 
-            <!-- Put your CV file into the repository root -->
-            <a href="CV_Lev_Kalabenkov.pdf" target="_blank" rel="noopener" aria-label="CV">
+            <a href="CV_Lev_Kalabenkov.pdf"
+               download="CV_Lev_Kalabenkov.pdf"
+               aria-label="Download CV"
+               title="Download CV">
               <i class="ai ai-cv ai-lg" aria-hidden="true"></i>
             </a>
           </p>
@@ -252,7 +251,6 @@
           <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#skills">Skills</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -262,20 +260,23 @@
       <h4>About</h4>
 
       <p>
-        I am an <b>SRE / DevOps Engineer</b> focused on reliability, infrastructure automation,
-        observability, and production support for distributed systems.
+        I am an <b>SRE / DevOps Engineer with 7 years of experience</b> supporting
+        the reliability and operation of critical banking systems.
+        I specialize in observability, incident management, Kubernetes operations,
+        Linux, and production support in microservice environments.
       </p>
 
       <p>
-        My main areas of expertise are <b>Kubernetes</b>, Linux, CI/CD, monitoring,
-        incident response, PostgreSQL, Kafka, OpenSearch, and automation with Bash, Python,
-        Helm, and Ansible.
+        I built monitoring from the ground up for a lending pipeline consisting of
+        more than 30 production microservices processing over 1,000 applications per day.
+        The monitoring platform reduced incident detection time to approximately three minutes
+        while helping maintain 99.95% availability for critical services.
       </p>
 
       <p>
-        I enjoy solving complex infrastructure problems, reducing operational toil,
-        improving system visibility, and building environments that are reliable,
-        reproducible, and easy to maintain.
+        My strongest areas are Prometheus, Grafana, Kubernetes, Helm, PostgreSQL,
+        OpenSearch, Linux, distributed incident analysis, and postmortems.
+        I am currently developing further in IaC, GitOps, Terraform, ArgoCD, and CI/CD.
       </p>
 
       <div class="highlight-box">
@@ -294,13 +295,20 @@
           <div class="direction-r">
             <div class="flag-wrapper">
               <span class="flag">OTP Bank</span>
-              <span class="time-wrapper"><span class="time">Present</span></span>
+              <span class="time-wrapper"><span class="time">Mar 2025 – Present</span></span>
             </div>
             <div class="desc">
               <b>SRE / DevOps Engineer</b><br>
-              Production support and reliability of banking microservices.
-              Kubernetes operations, incident response, monitoring, alerting,
-              release support, performance analysis, and infrastructure automation.
+              Built end-to-end observability coverage for a lending platform with 30+ production
+              microservices and more than 1,000 applications per day. Created monitoring and alerting
+              with Prometheus, Grafana, Alertmanager, OpenSearch, Blackbox Exporter,
+              PostgreSQL Exporter, and SQL Exporter.<br><br>
+              Automated monitoring-agent deployment through CI, developed Grafana dashboards,
+              monitored business processes directly from databases, supported releases,
+              investigated distributed incidents, maintained runbooks, and automated routine work with Bash.<br><br>
+              <b>Stack:</b> Kubernetes, Helm, Docker, Prometheus, Grafana, Alertmanager,
+              OpenSearch, PostgreSQL, Kafka, RabbitMQ, Nexus, TeamCity, Bitbucket,
+              Ansible, Bash, Linux.
             </div>
           </div>
         </li>
@@ -308,14 +316,16 @@
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
-              <span class="flag">Production Observability</span>
-              <span class="time-wrapper"><span class="time">Ongoing</span></span>
+              <span class="flag">Ingosstrakh Bank</span>
+              <span class="time-wrapper"><span class="time">May 2024 – Mar 2025</span></span>
             </div>
             <div class="desc">
-              <b>Monitoring and Alerting</b><br>
-              Grafana dashboards, Prometheus alerts, Alertmanager routing,
-              OpenSearch log analysis, JVM and application metrics,
-              HTTP error-rate and latency monitoring.
+              <b>Application Support Engineer</b><br>
+              Monitored lending-platform performance through Zabbix and responded to production incidents.
+              Administered the Flextera core banking system and supported correct processing
+              of retail and corporate loan applications. Deployed and supported FIS,
+              resolved failures, and coordinated complex incidents with the Diasoft vendor.<br><br>
+              <b>Stack:</b> Zabbix, FIS, Flextera, Oracle DB, Linux, Bash.
             </div>
           </div>
         </li>
@@ -323,13 +333,34 @@
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
-              <span class="flag">DevOps Engineering</span>
-              <span class="time-wrapper"><span class="time">Ongoing</span></span>
+              <span class="flag">FC Otkritie</span>
+              <span class="time-wrapper"><span class="time">Apr 2023 – May 2024</span></span>
             </div>
             <div class="desc">
-              <b>Infrastructure and Delivery</b><br>
-              Kubernetes, Helm, TeamCity, Bitbucket, Nexus, Linux,
-              PostgreSQL, Kafka, RabbitMQ, Bash, and Python automation.
+              <b>Application Support Engineer</b><br>
+              Supported the reliability of auto-lending applications through Zabbix monitoring
+              and rapid incident resolution. Integrated external systems including eKredit and FAST
+              through REST APIs, diagnosed integration failures, administered Linux servers,
+              installed updates and patches, supported night releases, and coordinated bug resolution
+              with development teams through Jira.<br><br>
+              <b>Stack:</b> Zabbix, REST API, Linux, Postman, Jira, FIS AUTO.
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Post Bank</span>
+              <span class="time-wrapper"><span class="time">Apr 2023 – May 2024</span></span>
+            </div>
+            <div class="desc">
+              <b>Application Support Engineer</b><br>
+              Performed scheduled production changes, server updates, software patching,
+              night releases, and diagnostics. Administered Linux servers, installed weekly SAS patches,
+              analyzed logs, monitored infrastructure through Zabbix, and managed user access
+              through an IDM system.<br><br>
+              <b>Stack:</b> Linux, Zabbix, SAS, IDM, Bash, Siebel.
             </div>
           </div>
         </li>
@@ -515,35 +546,6 @@
       </div>
     </div>
 
-    <!-- Contact -->
-    <div class="docs-section" id="contact">
-      <h4>Contact</h4>
-
-      <p>
-        I am interested in SRE, DevOps, platform engineering,
-        infrastructure automation, Kubernetes, and observability projects.
-      </p>
-
-      <p>
-        <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
-      </p>
-
-      <p>
-        <i class="fa-brands fa-github"></i>
-        <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener">
-          github.com/mr-levkalabenkov
-        </a>
-      </p>
-
-      <p>
-        <i class="fa-brands fa-linkedin"></i>
-        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">
-          LinkedIn
-        </a>
-      </p>
-    </div>
-
     <!-- Footer -->
     <div class="footer">
       <div class="row">
@@ -564,7 +566,7 @@
             <i class="fa-brands fa-linkedin"></i>
           </a>
 
-          <a href="CV_Lev_Kalabenkov.pdf" target="_blank" rel="noopener" aria-label="CV">
+          <a href="CV_Lev_Kalabenkov.pdf" download="CV_Lev_Kalabenkov.pdf" aria-label="Download CV" title="Download CV">
             <i class="ai ai-cv" aria-hidden="true"></i>
           </a>
         </div>
