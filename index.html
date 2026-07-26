@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lev Kalabenkov | SRE / DevOps Engineer</title>
+  <meta name="description" content="Lev Kalabenkov — SRE / DevOps Engineer specializing in Kubernetes, observability, CI/CD, Linux, infrastructure automation, and production reliability.">
+  <meta name="author" content="Lev Kalabenkov">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lev Kalabenkov | SRE / DevOps Engineer">
+  <meta property="og:description" content="Kubernetes, observability, CI/CD, Linux, infrastructure automation, and production reliability.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="profile.jpg">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="libs/external/skeleton/normalize.css">
+  <link rel="stylesheet" href="libs/external/skeleton/skeleton.css">
+  <link rel="stylesheet" href="libs/custom/my_css.css">
+  <link rel="stylesheet" href="libs/external/timeline.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='10' y='10' width='80' height='80' rx='18' fill='%2333C3F0'/%3E%3Cpath d='M30 67V33h10v25h27v9z' fill='white'/%3E%3C/svg%3E">
+
+  <style>
+    :root {
+      --accent: #33C3F0;
+      --accent-dark: #168ab0;
+      --text: #222;
+      --muted: #666;
+      --line: #e8e8e8;
+      --soft: #f7fbfd;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent-dark);
+    }
+
+    .header {
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+    }
+
+    .profile-photo {
+      width: 100%;
+      max-width: 220px;
+      border-radius: 4px;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+    }
+
+    .main-description h1 {
+      margin-bottom: 0.8rem;
+    }
+
+    .main-description p {
+      margin-bottom: 0.35rem;
+    }
+
+    .social-links {
+      margin-top: 1.4rem;
+    }
+
+    .social-links a {
+      color: #222;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: var(--accent);
+    }
+
+    .project-group-heading {
+      font-size: 0.78em;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-bottom: 1px solid #e8f5fc;
+      padding-bottom: 6px;
+      margin-top: 36px;
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #f0f8ff;
+      border: 1px solid #b8dff5;
+      color: #2a9fd6;
+      border-radius: 3px;
+      padding: 1px 7px;
+      font-size: 0.72em;
+      margin-right: 4px;
+      margin-top: 2px;
+      vertical-align: middle;
+    }
+
+    .tag-live {
+      background: #fffbeb;
+      border-color: #f6ad55;
+      color: #c05621;
+    }
+
+    .tag-prod {
+      background: #f0fff4;
+      border-color: #68d391;
+      color: #276749;
+    }
+
+    .paper {
+      margin-bottom: 2.8rem;
+    }
+
+    .paper .title {
+      margin-bottom: 0.6rem;
+    }
+
+    .paper-buttons {
+      margin-top: 1rem;
+    }
+
+    .paper-buttons .button {
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 2rem;
+    }
+
+    .skill-card {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 6px;
+      padding: 18px;
+    }
+
+    .skill-card h5 {
+      font-size: 1.7rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .skill-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .highlight-box {
+      background: var(--soft);
+      border-left: 4px solid var(--accent);
+      padding: 18px 20px;
+      margin: 2rem 0;
+    }
+
+    .footer {
+      margin-top: 5rem;
+      padding: 3rem 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    .footer a {
+      color: inherit;
+      margin-right: 8px;
+    }
+
+    .navbar-link {
+      cursor: pointer;
+    }
+
+    @media (max-width: 750px) {
+      .header {
+        padding-top: 3rem;
+      }
+
+      .profile-photo {
+        margin-bottom: 2rem;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <img class="u-max-full-width profile-photo" src="profile.jpg" alt="Lev Kalabenkov">
+        </div>
+
+        <div class="nine columns main-description">
+          <h1>Lev Kalabenkov</h1>
+          <p><b>SRE / DevOps Engineer</b></p>
+          <p>Kubernetes · Observability · CI/CD · Linux · Automation</p>
+          <p>Voronezh, Russia</p>
+
+          <!-- Replace this email -->
+          <p><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+
+          <p class="social-links">
+            <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fa-brands fa-github fa-lg"></i>
+            </a>
+
+            <!-- Replace YOUR_LINKEDIN with your real LinkedIn URL -->
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+
+            <!-- Put your CV file into the repository root -->
+            <a href="CV_Lev_Kalabenkov.pdf" target="_blank" rel="noopener" aria-label="CV">
+              <i class="ai ai-cv ai-lg" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation -->
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#skills">Skills</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <div class="docs-section" id="about">
+      <h4>About</h4>
+
+      <p>
+        I am an <b>SRE / DevOps Engineer</b> focused on reliability, infrastructure automation,
+        observability, and production support for distributed systems.
+      </p>
+
+      <p>
+        My main areas of expertise are <b>Kubernetes</b>, Linux, CI/CD, monitoring,
+        incident response, PostgreSQL, Kafka, OpenSearch, and automation with Bash, Python,
+        Helm, and Ansible.
+      </p>
+
+      <p>
+        I enjoy solving complex infrastructure problems, reducing operational toil,
+        improving system visibility, and building environments that are reliable,
+        reproducible, and easy to maintain.
+      </p>
+
+      <div class="highlight-box">
+        <b>Current focus:</b> platform engineering, Kubernetes operations, production observability,
+        deployment automation, incident diagnostics, and reliable delivery of microservices.
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="docs-section" id="experience">
+      <h4>Experience</h4>
+
+      <ul class="timeline" style="margin-top: 3rem;">
+
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">OTP Bank</span>
+              <span class="time-wrapper"><span class="time">Present</span></span>
+            </div>
+            <div class="desc">
+              <b>SRE / DevOps Engineer</b><br>
+              Production support and reliability of banking microservices.
+              Kubernetes operations, incident response, monitoring, alerting,
+              release support, performance analysis, and infrastructure automation.
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Production Observability</span>
+              <span class="time-wrapper"><span class="time">Ongoing</span></span>
+            </div>
+            <div class="desc">
+              <b>Monitoring and Alerting</b><br>
+              Grafana dashboards, Prometheus alerts, Alertmanager routing,
+              OpenSearch log analysis, JVM and application metrics,
+              HTTP error-rate and latency monitoring.
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">DevOps Engineering</span>
+              <span class="time-wrapper"><span class="time">Ongoing</span></span>
+            </div>
+            <div class="desc">
+              <b>Infrastructure and Delivery</b><br>
+              Kubernetes, Helm, TeamCity, Bitbucket, Nexus, Linux,
+              PostgreSQL, Kafka, RabbitMQ, Bash, and Python automation.
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="docs-section" id="projects">
+      <h4>Projects</h4>
+
+      <p class="project-group-heading">Infrastructure & Platform Engineering</p>
+
+      <div class="paper">
+        <p class="title">
+          <b>Production-like DevOps Lab</b>
+          <span class="tag tag-prod">Infrastructure</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">Ansible</span>
+        </p>
+
+        <p>
+          A production-like environment deployed across seven VDS servers.
+          The lab includes two Kubernetes clusters, a three-node Kafka KRaft cluster,
+          centralized observability, infrastructure automation, secure network access,
+          TLS certificates, and reproducible deployment procedures.
+        </p>
+
+        <p>
+          One Kubernetes cluster was deployed manually with kubeadm, while another was
+          automated with Ansible roles. The platform includes ingress-nginx,
+          cert-manager, Prometheus, Grafana, OpenSearch, Fluent Bit, and several test applications.
+        </p>
+
+        <div class="paper-buttons">
+          <!-- Replace # with your real repository or documentation URL -->
+          <a class="button" href="#" target="_blank">Repository</a>
+          <a class="button" href="#" target="_blank">Documentation</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <p class="title">
+          <b>Kubernetes Observability Platform</b>
+          <span class="tag">Prometheus</span>
+          <span class="tag">Grafana</span>
+          <span class="tag">OpenSearch</span>
+        </p>
+
+        <p>
+          Monitoring and logging platform for Kubernetes and microservices.
+          Includes service-level dashboards, HTTP error monitoring, request latency,
+          JVM metrics, Kafka consumer lag, infrastructure health checks,
+          log aggregation, and alerting for production incidents.
+        </p>
+
+        <div class="paper-buttons">
+          <a class="button" href="#" target="_blank">Architecture</a>
+          <a class="button" href="#" target="_blank">Dashboard Examples</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <p class="title">
+          <b>Three-node Kafka KRaft Cluster</b>
+          <span class="tag">Kafka</span>
+          <span class="tag">KRaft</span>
+          <span class="tag">High Availability</span>
+        </p>
+
+        <p>
+          A three-broker Apache Kafka cluster without ZooKeeper, configured with
+          replication factor 3 and minimum in-sync replicas 2.
+          The project includes failover testing, topic replication verification,
+          service hardening, and operational documentation.
+        </p>
+
+        <div class="paper-buttons">
+          <a class="button" href="#" target="_blank">Repository</a>
+        </div>
+      </div>
+
+      <p class="project-group-heading">Automation & Applications</p>
+
+      <div class="paper">
+        <p class="title">
+          <b>Telegram AI Companion Platform</b>
+          <span class="tag tag-live">In Development</span>
+          <span class="tag">Python</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Redis</span>
+        </p>
+
+        <p>
+          A Telegram-based AI companion platform with configurable personas,
+          persistent conversation memory, subscriptions, usage limits,
+          proactive actions, payment integration, and external LLM providers.
+        </p>
+
+        <p>
+          The backend uses Python, PostgreSQL, Redis, Telegram APIs,
+          background jobs, and structured user-state management.
+        </p>
+
+        <div class="paper-buttons">
+          <a class="button" href="#" target="_blank">Project Overview</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <p class="title">
+          <b>CDN-based Secure Proxy Infrastructure</b>
+          <span class="tag">Nginx</span>
+          <span class="tag">Xray</span>
+          <span class="tag">TLS</span>
+        </p>
+
+        <p>
+          Multi-region proxy infrastructure with CDN termination,
+          Nginx reverse proxying, TLS certificates, Xray relay nodes,
+          firewall rules, health checks, and automated certificate renewal.
+        </p>
+
+        <div class="paper-buttons">
+          <a class="button" href="#" target="_blank">Architecture</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <p class="title">
+          <b>Incident and Operations Automation</b>
+          <span class="tag">Python</span>
+          <span class="tag">Bash</span>
+          <span class="tag">SRE</span>
+        </p>
+
+        <p>
+          Automation ideas and utilities for operational workflows:
+          incident assignment, health checks, service diagnostics,
+          log collection, database verification, and repetitive support tasks.
+        </p>
+
+        <div class="paper-buttons">
+          <a class="button" href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener">GitHub Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="docs-section" id="skills">
+      <h4>Skills</h4>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h5>Containers & Orchestration</h5>
+          <p>Kubernetes, Docker, containerd, Helm, ingress-nginx, cert-manager, Calico.</p>
+        </div>
+
+        <div class="skill-card">
+          <h5>Observability</h5>
+          <p>Prometheus, Grafana, Alertmanager, OpenSearch, Fluent Bit, application and JVM metrics.</p>
+        </div>
+
+        <div class="skill-card">
+          <h5>CI/CD & Automation</h5>
+          <p>TeamCity, Bitbucket, GitHub Actions, Ansible, Bash, Python, Git.</p>
+        </div>
+
+        <div class="skill-card">
+          <h5>Databases & Messaging</h5>
+          <p>PostgreSQL, Redis, Apache Kafka, RabbitMQ, SQL, performance diagnostics.</p>
+        </div>
+
+        <div class="skill-card">
+          <h5>Systems & Networking</h5>
+          <p>Linux, systemd, Nginx, TLS, DNS, SSH, firewalls, TCP/IP troubleshooting.</p>
+        </div>
+
+        <div class="skill-card">
+          <h5>SRE Practices</h5>
+          <p>Incident response, postmortems, alert design, reliability analysis, runbooks, production support.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="docs-section" id="contact">
+      <h4>Contact</h4>
+
+      <p>
+        I am interested in SRE, DevOps, platform engineering,
+        infrastructure automation, Kubernetes, and observability projects.
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener">
+          github.com/mr-levkalabenkov
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          Lev Kalabenkov
+        </div>
+
+        <div class="four columns">
+          SRE / DevOps Engineer
+        </div>
+
+        <div class="four columns">
+          <a href="https://github.com/mr-levkalabenkov" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="CV_Lev_Kalabenkov.pdf" target="_blank" rel="noopener" aria-label="CV">
+            <i class="ai ai-cv" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".navbar-link").forEach(function (link) {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start"
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

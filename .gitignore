@@ -1,0 +1,10 @@
+# Ignore everything in Desktop except the website files
+*
+!.gitignore
+!index.html
+!profile.jpg
+!libs/
+!CV_Iuliia_Vitiugova.pdf
+
+# System files
+.DS_Store
